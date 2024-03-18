@@ -58,5 +58,7 @@ int main()
         ptr=new Pixel(0,0,a);
 
     }
+    else 
+        cout << "Invalid Input !!!! ";
     ptr ->display();
 }
