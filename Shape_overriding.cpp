@@ -20,7 +20,7 @@ class Shape
 class Triangle : public Shape
 {
     private:
-        int h,b;
+        double h,b;
     public:
         Triangle(double b , double h) : Shape ("Triangle") 
         {
